@@ -1,0 +1,25 @@
+{
+  "name": "transparency-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-based transparency reporting platform",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "hardhat test"
+  },
+  "keywords": [
+    "blockchain",
+    "typescript",
+    "hardhat",
+    "transparency"
+  ],
+  "author": "Nenad",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^18.15.0",
+    "hardhat": "^2.22.18",
+    "typescript": "^4.9.5"
+  }
+}
