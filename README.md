@@ -17,6 +17,5 @@ npx hardhat node
 ```
 
 ```shell
-npx hardhat run scripts/dep
-loy.ts --network localhost
+npx hardhat run scripts/deploy.ts --network localhost
 ```
