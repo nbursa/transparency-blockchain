@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "CorruptionReporting",
-  "sourceName": "contracts/CorruptionReporting.sol",
+  "contractName": "ReportingSystem",
+  "sourceName": "contracts/ReportingSystem.sol",
   "abi": [
     {
       "anonymous": false,

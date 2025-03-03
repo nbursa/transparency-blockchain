@@ -1,10 +1,8 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const CorruptionReporting = await ethers.getContractFactory(
-    "CorruptionReporting"
-  );
-  const contract = await CorruptionReporting.deploy();
+  const ReportingSystem = await ethers.getContractFactory("ReportingSystem");
+  const contract = await ReportingSystem.deploy();
 
   await contract.waitForDeployment();
 

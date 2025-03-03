@@ -1,12 +1,10 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
 
-describe("CorruptionReporting", function () {
+describe("ReportingSystem", function () {
   it("Should create and update a report", async function () {
-    const CorruptionReporting = await ethers.getContractFactory(
-      "CorruptionReporting"
-    );
-    const contract = await CorruptionReporting.deploy();
+    const ReportingSystem = await ethers.getContractFactory("ReportingSystem");
+    const contract = await ReportingSystem.deploy();
     await contract.waitForDeployment();
 
     const [owner] = await ethers.getSigners();

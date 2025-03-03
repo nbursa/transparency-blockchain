@@ -45,7 +45,7 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <h1>Corruption Reporting</h1>
+      <h1>Reporting System</h1>
       {error && <p style={{ color: "red" }}>{error}</p>}
       <input
         type="text"

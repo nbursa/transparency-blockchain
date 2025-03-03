@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract CorruptionReporting {
+contract ReportingSystem {
     struct Report {
         address reporter;
         string description;
